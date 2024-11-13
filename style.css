@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 100vh;
+    height: auto;
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -65,15 +65,117 @@ body{
 }
 
 .signup{
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
     color: white;
     background-color: #3882F6;
-    border-radius: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .tarot{
     width: 500px;
     height: auto;
     padding: 25px;
+}
+
+
+.secondsection{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 30px;
+}
+
+.secondsectiontitle{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.tarotreading{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.reading{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.thirdsection{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 30px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 700px;
+}
+
+.from{
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    width: 700px;
+    justify-content: flex-end;
+}
+
+.source{
+    padding-left: 9px;
+}
+
+.fourthsection{
+    display: flex;
+    padding: 75px 50px;
+    justify-content: center;
+}
+
+.bluecontainer{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.Joincontainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 5px;
+    padding-left: 75px;
+}
+
+.Jointitle{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Joinsubtext{
+    color: white;
+}
+
+.footer{
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 35px;
 }
